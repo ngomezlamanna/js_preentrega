@@ -1,4 +1,4 @@
-// Funcion declarada sin return en 
+// Funcion declarada sin return en gas
 function pagarGas() {
   let opcionGas = prompt("El gas sale $" + costoGas + ":\n1. Pagar\n2. Volver");
   switch (opcionGas) {
@@ -107,12 +107,6 @@ while (continuar) {
           alert("Monto inválido. Por favor, ingresá un valor numérico válido.");
         }
         break;
-
-      
-
-
-
-
       case "2":
         pagarGas();
         break;
@@ -124,7 +118,7 @@ while (continuar) {
         alert("Opción no válida. Seleccioná 1, 2, 3 ó X mayúscula.");
     }
   } else {
-    // Si el usuario ingresa "x"
+    // Si el usuario ingresa "X"
     alert("Sesion cerrada. Hasta la proxima!");
     continuar = false; // Sale del bucle while
   }
