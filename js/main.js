@@ -108,42 +108,7 @@ while (continuar) {
         }
         break;
 
-      // case 2 y case 3 sin usar functions
-
-      // case "2":
-      //   let opcionGas = prompt("El gas sale $" + costoGas + ":\n1. Pagar\n2. Volver");
-      //   switch (opcionGas) {
-      //     case "1":
-      //       if (saldo >= costoGas) {
-      //         saldo = saldo - costoGas;
-      //         alert("¡Gas pagado! Tu saldo actualizado es: $" + saldo);
-      //       } else {
-      //         alert("Saldo insuficiente para pagar el gas.");
-      //       }
-      //       break;
-      //     case "2":
-      //       break;
-      //     default:
-      //       alert("Opción inválida");
-      //   }
-      //   break;
-      // case "3":
-      //   let opcionLuz = prompt("La luz sale $" + costoLuz + ":\n1. Pagar\n2. Volver");
-      //   switch (opcionLuz) {
-      //     case "1":
-      //       if (saldo >= costoLuz) {
-      //         saldo = saldo - costoLuz;
-      //         alert("¡Luz pagada! Tu saldo actualizado es: $" + saldo);
-      //       } else {
-      //         alert("Saldo insuficiente para pagar la luz.");
-      //       }
-      //       break;
-      //     case "2":
-      //       break;
-      //     default:
-      //       alert("Opción inválida");
-      //   }
-      //   break;
+      
 
 
 
